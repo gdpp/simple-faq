@@ -48,3 +48,7 @@ Open index.html directly in your browser, or use the Live Server extension in Vi
 5. Edit and view changes
 Make changes to the HTML and CSS files in your editor.
 Refresh the browser page to see the updates.
+
+## Demo
+
+Check the live demo [here](https://gdpp.github.io/simple-faq/)
