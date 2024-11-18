@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F8FAFC;
+    color: #030616;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    min-height: 100dvh;
+    width: 100%;
+}
+
+h1{
+    margin-bottom: 14px;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+hr{
+    background-color: #D2D5DA;
+    opacity: 0.6;
+    width: 100%;
+}
+
+ol{
+    margin-left: 1.5rem;
+}
+
+ul{
+    margin-left: 1.6rem;
+}
+
+a{
+    color: #4E80EE;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li{
+    margin: 2px 0;
+    line-height: 28px;
+}
+
+.header{
+    align-items: center;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    justify-content: center;
+    padding: 0 24px;
+    text-align: center;
+}
+
+.content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.question{
+    padding: 2rem 0 1.5rem 0;
+    width: 100%;
+}
+
+.question p {
+    margin: 1.5rem 0 1rem 0;
+}
+
+@media (min-width: 720px){
+    hr{
+        width: 680px;
+    }
+
+    .question{
+        width: 680px;
+    }
+}
